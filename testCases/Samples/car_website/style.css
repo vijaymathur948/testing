@@ -1,0 +1,50 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+nav.navbar.navbar-default.custom-nav{
+	background-color: #fff;
+  border-color: transparent;
+	-webkit-box-shadow: 3px 3px 5px 6px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px -3px 9px 5px #ddd; 
+}
+a.navbar-brand.logo-custom{
+width: 300px;
+padding: 0px 15px;
+height: 70px;
+}
+
+.logo{
+	margin-right: 10px;
+	width: 35%;
+	float: left;
+}
+.navbar-right{
+	margin-top: 11px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #000000;
+    font-weight: 500;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: white;
+    background-color: black;
+}
+.navbar-brand.fast-wheel{
+	font-size: 25px;
+	font-weight: 700;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	letter-spacing: 2px;
+	margin-top: 10px;
+	text-transform: uppercase;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover{
+color:gray;
+background-color: transparent;	
+}
