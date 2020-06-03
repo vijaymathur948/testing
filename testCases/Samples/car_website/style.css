@@ -20,6 +20,9 @@ height: 70px;
 	width: 35%;
 	float: left;
 }
+.navbar{
+	margin-bottom: 0px;
+}
 .navbar-right{
 	margin-top: 11px;
 }
