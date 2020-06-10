@@ -1,0 +1,182 @@
+webpackHotUpdate("main",{
+
+/***/ "./src/ui-components/ChoiceField/index.jsx":
+/*!*************************************************!*\
+  !*** ./src/ui-components/ChoiceField/index.jsx ***!
+  \*************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var C_Users_dell_Documents_GitHub_coco_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties */ "./node_modules/babel-preset-react-app/node_modules/@babel/runtime/helpers/esm/objectWithoutProperties.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js");
+/* harmony import */ var prop_types__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(prop_types__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _Styles__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Styles */ "./src/ui-components/ChoiceField/Styles.js");
+
+
+var _this = undefined,
+    _jsxFileName = "C:\\Users\\dell\\Documents\\GitHub\\coco-frontend\\src\\ui-components\\ChoiceField\\index.jsx";
+
+
+
+
+
+var ChoiceField = function ChoiceField(_ref) {
+  var disabled = _ref.disabled,
+      required = _ref.required,
+      readonly = _ref.readonly,
+      style = _ref.style,
+      classes = _ref.classes,
+      tooltip = _ref.tooltip,
+      text = _ref.text,
+      label = _ref.label,
+      id = _ref.id,
+      choiceFieldProps = Object(C_Users_dell_Documents_GitHub_coco_frontend_node_modules_babel_preset_react_app_node_modules_babel_runtime_helpers_esm_objectWithoutProperties__WEBPACK_IMPORTED_MODULE_0__["default"])(_ref, ["disabled", "required", "readonly", "style", "classes", "tooltip", "text", "label", "id"]);
+
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "form-group is-prefilled",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18,
+      columnNumber: 9
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("label", {
+    onClick: "return labelClicked(this);",
+    htmlFor: "sys_display.incident.caller_id",
+    dir: "ltr",
+    className: " col-xs-12 col-md-3 col-lg-4 control-label",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 20,
+      columnNumber: 17
+    }
+  }, required && /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_Styles__WEBPACK_IMPORTED_MODULE_3__["StyledRequiredMarker"], {
+    id: "status.incident.caller_id",
+    "aria-label": "Read only - cannot be modified",
+    "data-dynamic-title": "Read only - cannot be modified",
+    mandatory: "true",
+    oclass: "",
+    className: "required-marker label_description",
+    "data-original-title": "",
+    title: "",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27,
+      columnNumber: 25
+    }
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
+    title: "",
+    className: "label-text",
+    "data-html": "false",
+    "data-original-title": "Person who reported or is affected by this incident",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39,
+      columnNumber: 21
+    }
+  }, "Caller"))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-xs-10 col-sm-9 col-md-6 col-lg-5 form-field input_controls",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49,
+      columnNumber: 13
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("select", {
+    "aria-required": "false",
+    "aria-labelledby": "label.incident.subcategory",
+    "ng-non-bindable": "true",
+    name: "incident.subcategory",
+    id: "incident.subcategory",
+    onChange: "onChange('incident.subcategory');",
+    className: "form-control  ",
+    readOnly: readonly,
+    disabled: readonly,
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 50,
+      columnNumber: 17
+    }
+  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+    value: "",
+    role: "option",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61,
+      columnNumber: 21
+    }
+  }, "-- None --"), choiceFieldProps.choices.split(',').map(function (options, key) {
+    if (options) {
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("option", {
+        key: key,
+        value: options,
+        role: "option",
+        __self: _this,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 67,
+          columnNumber: 33
+        }
+      }, options);
+    }
+  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
+    className: "col-xs-2 col-sm-3 col-lg-2 form-field-addons",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75,
+      columnNumber: 13
+    }
+  }));
+};
+
+ChoiceField.propTypes = {
+  disabled: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
+  onClick: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.func,
+  opacity: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number,
+  index: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number]),
+  id: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.oneOfType([prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string, prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.number]),
+  text: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+  label: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+  required: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
+  readonly: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.bool,
+  style: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.shape({}),
+  tooltip: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string,
+  classes: prop_types__WEBPACK_IMPORTED_MODULE_2___default.a.string
+};
+ChoiceField.defaultProps = {
+  disabled: false,
+  onClick: function onClick() {},
+  opacity: 1,
+  index: undefined,
+  id: undefined,
+  text: 'Button',
+  label: 'Label',
+  required: true,
+  readonly: false,
+  tooltip: '',
+  classes: '',
+  style: {}
+};
+/* harmony default export */ __webpack_exports__["default"] = (ChoiceField);
+
+/***/ })
+
+})
+//# sourceMappingURL=main.801833b7d0cdd54bf567.hot-update.js.map
